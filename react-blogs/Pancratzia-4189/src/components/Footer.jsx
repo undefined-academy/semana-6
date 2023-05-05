@@ -1,4 +1,5 @@
 import * as React from "react";
+import LinkRed from "./LinkRed";
 
 
 function Footer() {
@@ -6,8 +7,8 @@ function Footer() {
         <footer className="footer" id="contacto">
         <div className="contenedor contenedor-footer">
             <div className="redes">
-                <a href="https://github.com/Pancratzia"><i className="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/leortegaperez/"><i className="fa fa-linkedin"></i></a>
+                <LinkRed href="https://github.com/Pancratzia" icono="fa fa-github" />
+                <LinkRed href="https://www.linkedin.com/in/leortegaperez/" icono="fa fa-linkedin" />
             </div>
 
             <p>&copy; Todos los derechos reservados<br />Laura Ortega - 2023</p>
