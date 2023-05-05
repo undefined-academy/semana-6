@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
+import { humanizeDate } from "../logic/humanizeDate";
 import clay from "../assets/clay.jpg";
-import "./Posts.css";
-export function Posts({ entries }) {
+import "./Cards.css";
+export function Cards({ entries }) {
   const orderEntries = entries?.toSorted((a, b) => {
     if (a.principal && b.principal) {
       return a.id - b.id;
@@ -23,7 +24,7 @@ export function Posts({ entries }) {
             <div className="article-text">
               <p>{entry.body}</p>
               <div className="article-footer">
-                <time dateTime="2023-03-31"></time>
+                <time dateTime={entry.date}>{humanizeDate(entry.date)}</time>
                 <a className="article-link" href="#">
                   Leer más
                 </a>
@@ -35,7 +36,7 @@ export function Posts({ entries }) {
     </section>
   );
 }
-Posts.propTypes = {
+Cards.propTypes = {
   entries: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.object),
     PropTypes.oneOf([null, undefined]),
