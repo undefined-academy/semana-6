@@ -103,6 +103,7 @@ function App({ date }) {
           about the site!
         </address>
       </footer>
+      <script type="module" src="my-module.js"></script>
     </React.Fragment>
   );
 }
