@@ -1,4 +1,3 @@
-import { date_humanize } from "../assets/js";
 import { Card } from "./Card";
 
 export const Section = () => {
@@ -8,7 +7,7 @@ export const Section = () => {
          image: '../src/assets/images/nodejs.jpg',
          avatar: '../src/assets/images/perfil-2.jpg',
          author: 'José Camilo Rodríguez Vera',
-         date: '2022/11/02',
+         date: '2022-11-02',
          title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur iure placeat, officiis beataevoluptas, numquam saepe in dolores consectetur voluptatem dolore odio nihil eos est.At molestiaeofficiis voluptatem!',
          views: 5,
@@ -20,7 +19,7 @@ export const Section = () => {
          image: '../src/assets/images/react-logo.jpg',
          avatar: '../src/assets/images/perfil-2.jpg',
          author: 'José Camilo Rodríguez Vera',
-         date: '2023/03/14',
+         date: '2023-03-14',
          title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur iure placeat, officiis beataevoluptas, numquam saepe in dolores consectetur voluptatem dolore odio nihil eos est.At molestiaeofficiis voluptatem!',
          views: 5,
@@ -32,7 +31,7 @@ export const Section = () => {
          image: '../src/assets/images/javaScript.jpg',
          avatar: '../src/assets/images/perfil-2.jpg',
          author: 'José Camilo Rodríguez Vera',
-         date: '2023/05/01',
+         date: '2023-05-05',
          title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur iure placeat, officiis beataevoluptas, numquam saepe in dolores consectetur voluptatem dolore odio nihil eos est.At molestiaeofficiis voluptatem!',
          views: 5,
@@ -50,7 +49,7 @@ export const Section = () => {
                   image={image}
                   avatar={avatar}
                   author={author}
-                  date={date_humanize(date)}
+                  date={date}
                   title={title}
                   description={description}
                   views={views}
