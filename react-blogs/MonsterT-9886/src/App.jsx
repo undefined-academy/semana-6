@@ -1,11 +1,8 @@
-// src/App.jsx
 import React from 'react';
 import './App.css';
-import Body from './Body';
-import MainNavbar from './MainNavbar';
-import FeaturedPosts from './FeaturedPosts';
-import PostListContainer from './PostListContainer';
-import PostCard from './PostCard';
+import MainNavbar from './MainNavbar.jsx';
+import FeaturedPosts from './FeaturedPosts.jsx';
+import PostListContainer from './PostListContainer.jsx';
 
 function App() {
   const postCardsData = [
@@ -33,28 +30,9 @@ function App() {
 
   return (
     <div className="App">
-      <Body>
-        <MainNavbar />
-      </Body>
-      <main>
-        <FeaturedPosts />
-        <PostListContainer>
-        <div className="post-card-container"> 
-        {postCardsData.map((post,index) => (
-          <PostCard
-          key={post.id}
-          imgUrl={post.imgUrl}
-          tags={post.tags}
-          date={post.date}
-          description={post.description}
-          authorImgUrl={post.authorImgUrl}
-          authorName={post.authorName}
-          readingTime={post.readingTime}
-          />
-        ))}
-      </div> 
-        </PostListContainer>
-      </main>
+      <MainNavbar />
+      <FeaturedPosts />
+      <PostListContainer postCardsData={postCardsData} />
     </div>
   );
 }

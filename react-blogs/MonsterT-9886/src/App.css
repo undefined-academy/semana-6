@@ -1,5 +1,8 @@
 
+.Body {
+background-color: tomato;
 
+}
 
 .MainNavbar {
   display: flex;
