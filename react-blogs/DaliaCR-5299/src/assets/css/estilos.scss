@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+nav a:hover {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: space-between;
+  align-items: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.posts {
+  border: 2px solid tomato;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/*estilos para el pie de pagina*/
+.copy {
+  background-color: #eee;
+  color: #000;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+/*estilo para el texto que contiene el pie de pagina*/
+.copy p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin: 0%;
+}
+
+.copy a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0%;
+}
