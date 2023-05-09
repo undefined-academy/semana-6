@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--sky-950);
+    color: var(--sky-100);
+    gap: 12px;
+}
+
+.footer a,
+.footer strong {
+    color: var(--sky-100);
+    text-decoration: none;
+}
+
+.footer .social {
+    display: flex;
+    max-width: 50em;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
