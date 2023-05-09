@@ -1,11 +1,14 @@
+import { fechaatexto } from "../assets/Js/scripts.mjs";
 function Card({title, content, image, date, avatar}){
     return(
     <div className="posts">
         <img src={image} alt="" />
-        <span>{avatar}</span>
         <h2>{title}</h2>
         <p>{content}</p>
-        <span>{date}</span>
+    <div className="autor">
+        <span><img className="avatar" src={avatar} alt="" /></span>
+        <span className="date">{fechaatexto(date)}</span>
+    </div>
     </div>
     )
 }
