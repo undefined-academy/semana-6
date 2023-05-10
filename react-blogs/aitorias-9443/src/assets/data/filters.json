@@ -1,0 +1,42 @@
+[
+    {
+      "type": "button",
+      "classes": [
+        "button", "filter-button"
+      ],
+      "id": "all",
+      "value": "all",
+      "dataFilter": "all",
+      "text": "Todos"
+    },
+    {
+      "type": "button",
+      "classes": [
+        "button", "filter-button"
+      ],
+      "id": "html",
+      "value": "html",
+      "dataFilter": "html",
+      "text": "HTML"
+    },
+    {
+      "type": "button",
+      "classes": [
+        "button", "filter-button"
+      ],
+      "id": "css",
+      "value": "css",
+      "dataFilter": "css",
+      "text": "CSS"
+    },
+    {
+      "type": "button",
+      "classes": [
+        "button", "filter-button"
+      ],
+      "id": "javascript",
+      "value": "javascript",
+      "dataFilter": "javascript",
+      "text": "JavaScript"
+    }
+  ]
