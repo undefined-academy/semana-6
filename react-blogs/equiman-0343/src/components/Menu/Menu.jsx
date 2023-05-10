@@ -9,16 +9,16 @@ const Menu = () => {
       </label>
       <ul>
         <li>
-          <a href="#about">Acerca</a>
+          <a href="/#about">Acerca</a>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <a href="/#blog">Blog</a>
         </li>
         <li>
-          <a href="components/contact.html">Contacto</a>
+          <a href="/contact">Contacto</a>
         </li>
         <li>
-          <a href="#social">Sígueme</a>
+          <a href="/#social">Sígueme</a>
         </li>
       </ul>
     </nav>

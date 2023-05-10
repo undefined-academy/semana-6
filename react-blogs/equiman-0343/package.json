@@ -18,7 +18,8 @@
     "prop-types": "15.8.1",
     "react": "^18.2.0",
     "react-country-flag": "3.1.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.11.1"
   },
   "devDependencies": {
     "@csstools/postcss-nesting-experimental": "^2.0.0",

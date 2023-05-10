@@ -1,19 +1,16 @@
-import { Header, Contact, Footer, Me } from './components'
-import Blog from './components/Blog/Blog'
+import { Header, Home, Contact, Footer } from './components'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <>
+      <Header />
       <main>
-        <Header />
-
-        <Me />
-
-        <Blog />
-
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
-
       <Footer />
     </>
   )

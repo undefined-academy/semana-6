@@ -24,5 +24,3 @@ section:not(.me) > h1 {
     padding: 1rem;
     color: var(--text-title);
 }
-
-
