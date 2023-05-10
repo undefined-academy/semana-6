@@ -17,7 +17,7 @@ function Sections({filterName}){
           if(index != 0 && index < 7){
             return (
               <Card
-                key={index}
+                key={article.id}
                 {...article}
               />
             )
@@ -35,7 +35,7 @@ function Sections({filterName}){
           if(index >= 7){
             return (
               <Card
-                key={index}
+                key={article.id}
                 {...article}
               />
             )
