@@ -1,6 +1,6 @@
-import { Blog } from './Components/Blog'
-import { Footer } from './Components/Footer';
-import { Header } from './Components/Header';
+import { Blog } from './Components/Blog/Blog';
+import { Footer } from './Components/Partials/Footer';
+import { Header } from './Components/Partials/Header';
 
 function App() {
   return(

@@ -1,4 +1,4 @@
-import { humanizeDate } from "../Javascript/main.mjs";
+import { humanizeDate } from "../../Javascript/main.mjs";
 
 export const Card = ({title, description, date}) => {
   return (

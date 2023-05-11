@@ -1,7 +1,7 @@
-import '../App.css'
-import link from '../assets/link.webp'
-import react from '../assets/react.svg'
-import git from '../assets/git.png'
+import '../../App.css'
+import link from '../../assets/link.webp'
+import react from '../../assets/react.svg'
+import git from '../../assets/git.png'
 
 export const Footer = () => {
     return (

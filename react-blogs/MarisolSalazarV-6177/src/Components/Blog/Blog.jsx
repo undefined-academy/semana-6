@@ -1,6 +1,6 @@
-import '../App.css'
-import { Card } from "./Card";
-import { articles } from '../Javascript/articles.js';
+import '../../App.css'
+import { Card } from "../Card/Card";
+import { articles } from '../../Javascript/articles.js';
 
     export const Blog = () => {
     return (
