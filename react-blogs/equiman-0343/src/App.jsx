@@ -1,10 +1,12 @@
-import { Header, Home, Contact, Footer } from './components'
+import { Header, Menu, Home, Contact, Footer } from './components'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Header />
+      <Header>
+        <Menu />
+      </Header>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

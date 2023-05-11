@@ -5,24 +5,23 @@ import './Blog.css'
 const Blog = () => {
   const postList = useGetPost()
 
-  if (postList?.loading) {
-    return <>Loading...</>
-  }
+  return (
+    <section className="blog">
+      {postList?.loading && <>Loading...</>}
+      {!postList?.loading && postList?.data?.length > 0 && (
+        <>
+          <h1>
+            <a id="blog">Blog</a>
+          </h1>
 
-  if (postList?.data?.length > 0) {
-    return (
-      <section className="blog">
-        <h1>
-          <a id="blog">Blog</a>
-        </h1>
-
-        <div className="post-list">
-          {postList.data.map((post) => (
-            <Post key={post.uuid} {...post} />
-          ))}
-        </div>
-      </section>
-    )
-  }
+          <div className="post-list">
+            {postList.data.map((post) => (
+              <Post key={post.uuid} {...post} />
+            ))}
+          </div>
+        </>
+      )}
+    </section>
+  )
 }
 export default Blog

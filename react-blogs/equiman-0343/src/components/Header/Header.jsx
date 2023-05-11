@@ -1,7 +1,6 @@
-import { Menu } from '../'
 import './Header.css'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
       <div className="company">
@@ -18,7 +17,7 @@ const Header = () => {
         </div>
       </div>
 
-      <Menu />
+      {props.children}
     </header>
   )
 }

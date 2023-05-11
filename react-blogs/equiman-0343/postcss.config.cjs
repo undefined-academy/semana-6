@@ -1,6 +1,6 @@
 module.exports = {
     "plugins": {
-        "@csstools/postcss-nesting-experimental": true,
+        "postcss-nested": true,
         "autoprefixer": true
     }
 }

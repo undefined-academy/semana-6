@@ -1,6 +1,7 @@
 form {
     display: grid;
     align-items: center;
+    font-family: Inter, Helvetica, Arial, sans-serif;
     grid-gap: 16px;
     grid-template-columns: repeat(1fr, 3);
 }
@@ -19,6 +20,8 @@ legend {
 
 input,
 select {
+    padding: 8px 12px;
+    font-size: 1rem;
     grid-column: 1 / 4;
 }
 
@@ -45,18 +48,23 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 8px 12px;
     border: 1px solid var(--sky-200);
     border-radius: 4px;
     gap: 16px;
 }
 
 textarea {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
     resize: vertical;
 }
 
 input[type="checkbox"],
 input[type="radio"]
 {
+    margin: 0 8px;
+    accent-color: var(--sky-700);
     transform: scale(1.2);
 }
 
@@ -94,10 +102,10 @@ button {
 form button {
     min-width: 60px;
     padding: 8px 0;
-    border: 1px solid var(--sky-400);
+    border: 1px solid var(--sky-500);
     border-radius: 8px;
-    accent-color: var(--sky-600);
-    background: var(--sky-500);
+    accent-color: var(--sky-700);
+    background: var(--sky-600);
     box-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
     color: var(--sky-200);
     cursor: pointer;
@@ -111,13 +119,13 @@ form button {
 }
 
 form button:hover {
-    background: var(--sky-400);
+    background: var(--sky-500);
     color: var(--sky-100);
     text-shadow: 1px 1px rgb(0 0 0 / 50%);
 }
 
 form button:active {
-    background: var(--sky-600);
+    background: var(--sky-700);
     box-shadow: -1px -1px 0 rgb(0 0 0 / 50%);
 }
 

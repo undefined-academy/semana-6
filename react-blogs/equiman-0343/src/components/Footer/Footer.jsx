@@ -3,10 +3,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <h2>
+      <h1>
         <a id="social">Sígueme</a>
-      </h2>
-
+      </h1>
       <div className="social">
         <a href="https://github.com/equiman">
           <img

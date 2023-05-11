@@ -4,7 +4,9 @@ import './Me.css'
 const Me = () => {
   return (
     <section className="me">
-      <h1>👋 ¡Hola Mundo!</h1>
+      <h1>
+        <a id="about">👋 ¡Hola Mundo!</a>
+      </h1>
       <img
         className="profile-avatar"
         src="https://avatars.githubusercontent.com/u/933393?v=4"
