@@ -1,19 +1,18 @@
+import links from "../js/links.json";
+
+const setNavLinks = ({ text, url }) => <li><a href={url}>{text}</a></li>;
+
 export const Header = () => {
-    return (
-        <>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#" >Todos</a></li>
-                    <li><a href="#" >HTML</a></li>
-                    <li><a href="#" >CSS</a></li>
-                    <li><a href="#" >JavaScript</a></li>
-                    <li><a href="#" >Web components</a></li>
-                    <li><a href="#" >Sistemas de diseño</a></li>
-                    <li><a href="#" ><img  className="icon" src="/src/assets/icon.png" alt="icon"/></a></li>
-                </ul>
-            </nav>
-        </header>
-        </>
-    );
-}
+  return (
+    <>
+      <header>
+        <nav>
+          <ul>
+            {links.map(setNavLinks)}
+            <li><a href="#"><img className="icon" src="/src/assets/icon.png" alt="icon" /></a></li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
+};
