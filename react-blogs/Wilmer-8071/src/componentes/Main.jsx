@@ -8,7 +8,7 @@ function Main (){
 [
     {
             title: 'Sistema Solar',
-            text: 'El otro dia diseñe el sistema Solar, quieres echarle un vistazo al proyecto que realice con JavaScript y CSS puro? entra en el enlace, y se testigo de la magia del CSS. Esta es solo una muestra de lo que es posible crear utilizando estas tecnologías, por lo que si te interesa el diseño web, este proyecto te puede servir de inspiración para tus propios proyectos. No dudes en explorar el código fuente y ver cómo se implementaron estas funciones y efectos en la página web',
+            text: 'El otro dia diseñe el sistema Solar, quieres echarle un vistazo al proyecto que realice con JavaScript y CSS puro? entra en el enlace, y se testigo de la magia del CSS. Esta es solo una muestra de lo que es posible crear utilizando estas tecnologías, por lo que si te interesa el diseño web, este proyecto te puede servir de inspiración para tus propios proyectos.',
             img: 'articulo-4.png',
             enlace: 'https://frolicking-dusk-9fb1ba.netlify.app/',
             fecha: '05/06/2023'
@@ -16,15 +16,15 @@ function Main (){
     {   
         title: "Aprendiendo React",
         text: 'React es una de las bibliotecas de JavaScript más populares y utilizadas en el desarrollo de aplicaciones web modernas. A medida que vas utilizando esta herramienta, seguramente estarás aprendiendo nuevas habilidades y conocimientos que te permitirán mejorar tus habilidades técnicas y profesionales.',
-        img: 'articulo-1.PNG',
+        img: 'articulo-1.png',
         enlace: '###',
         fecha: '05/01/2023'
     },
     
     {
         title: "La verdadera magia de JavaScript",
-        text: 'Desde la manipulación del DOM hasta la programación orientada a objetos, en cada episodio descubrirás nuevas características y funciones avanzadas que hacen que este lenguaje de programación sea tan poderoso. Compartiré mi pasión por JavaScript y cómo esta herramienta puede ser utilizada para construir aplicaciones web dinámicas y de alta calidad. Si eres un entusiasta de la tecnología y estás interesado en aprender más sobre JavaScript, este es el lugar perfecto para ti. ¡Únete a mí en esta emocionante aventura y descubre la verdadera magia de JavaScript!',
-        img: 'articulo-2.PNG',
+        text: 'Desde la manipulación del DOM hasta la programación orientada a objetos, en cada episodio descubrirás nuevas características y funciones avanzadas que hacen que este lenguaje de programación sea tan poderoso. Compartiré mi pasión por JavaScript y cómo esta herramienta puede ser utilizada para construir aplicaciones web dinámicas y de alta calidad. ',
+        img: 'articulo-2.png',
         enlace: '###',
         fecha: '04/25/2023'
     },

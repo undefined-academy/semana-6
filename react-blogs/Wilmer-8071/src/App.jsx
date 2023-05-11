@@ -1,8 +1,8 @@
 import { Component } from "react";
 import './App.css'
 import './index.css'
-import Header from './componentes/header';
-import Main  from "./componentes/main";
+import Header from './componentes/Header';
+import Main  from "./componentes/Main";
 import Footer from "./componentes/Footer";
 
 

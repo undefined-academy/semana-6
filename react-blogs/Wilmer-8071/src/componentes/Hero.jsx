@@ -3,7 +3,7 @@ function Hero() {
     <div className="hero">
         <div className="contenedor contenedor-hero">
         <h1>
-            Blog<span>WilmerLopez</span>
+        &#123;Blog<span>WilmerLopez&#125;</span>
             <p> &lt; Acompañame en este camino, por el mundo de la tecnologia y el Desarrollo Web /&gt;</p>
         </h1>
         </div>

@@ -20,5 +20,3 @@ export function humanize(date){
     }
 }
 
-dayjs.locale("es-us")
-dayjs.extend(relativeTime);
