@@ -2,12 +2,13 @@ import { useState } from 'react'
 import './Filters.css'
 import { Button } from '../Button/Button'
 
-export function Filters({filterButtons}) {
+export function Filters({filterButtons, onFilterChange}) {
 
   const [activeButton, setActiveButton] = useState('all');
 
   const handleClick = (button) => {
-    setActiveButton(button);
+    setActiveButton(button.id)
+    onFilterChange(button.dataFilter)
   }
 
   return (
@@ -16,14 +17,15 @@ export function Filters({filterButtons}) {
           {filterButtons?.map((button) => (
             <Button
               key={button.id}
-              type={button.type}
-              classes={button.classes}
+              text={button.text}
+              type="button"
+              classes="button filter-button"
+              isActive={activeButton === button.id}
               id={button.id}
               value={button.value}
               dataFilter={button.dataFilter}
-              text={button.text}
-              isActive={activeButton === button.id}
-              onClick={() => handleClick(button.dataFilter)}
+              disabled={false}
+              onClick={() => handleClick(button)}
             />
           ))}
       </div>
