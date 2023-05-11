@@ -1,6 +1,6 @@
 import links from "../js/links.json";
 
-const setNavLinks = ({ text, url }) => <li><a href={url}>{text}</a></li>;
+const setNavLinks = ({ text, url = "#" }) => <li><a href={url}>{text}</a></li>;
 
 export const Header = () => {
   return (
