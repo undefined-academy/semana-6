@@ -1,20 +1,18 @@
-// Paragraph/SM/regular
+// Paragraph/SM/Regular
 .paragraph {
-    color: var(--color-back-pearl-400);
-
+  color: var(--color-black-pearl-700);
 }
 
 .paragraph-sm {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .paragraph-xs {
-    font-size: 13px;
-    line-height: 19px;
+  font-size: 13px;
+  line-height: 19px;
 }
 
 .is-help-text {
-    color: var(--color-back-pearl-400);
+  color: var(--color-black-pearl-400);
 }
-

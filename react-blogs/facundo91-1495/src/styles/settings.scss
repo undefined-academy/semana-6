@@ -1,23 +1,25 @@
-//Gustom properties (CSS Vatiables)
+// Custom properties (CSS Variables)
 :root {
-    --color-white: #FFF;
-    --color-back-pearl-50: #E4EBEE;
-    --color-back-pearl-100: #C9D6DE;
-    --color-back-pearl-900: #1B262C;
-    --color-back-pearl-800: #2C3D47;
-    --color-back-pearl-700: #3C5562;
-    --color-back-pearl-400: #7799AC;
+  --color-white: #fff;
 
-    --color-aquarius-100: #E2F5F7;
-    --color-aquarius-600: #35B6C8;
-    --color-aquarius-700: #288996;
-    --color-aquarius-900: #0D2E32;
+  --color-black-pearl-50: #e4ebee;
+  --color-black-pearl-100: #c9d6de;
+  --color-black-pearl-400: #7799ac;
+  --color-black-pearl-700: #3c5562;
+  --color-black-pearl-800: #2c3d47;
+  --color-black-pearl-900: #1b262c;
 
-    --color-morrocan-blur-100: #B5DBF5;
+  --color-aquarius-50: #e2f5f7;
+  --color-aquarius-100: #c5eaf0;
+  --color-aquarius-700: #288996;
+  --color-aquarius-600: #35b6c8;
+  --color-aquarius-900: #0d2e32;
 
-    --container-max-width: 1180px;
-    --container-padding: 0 24px;
+  --color-morrocan-blue-100: #b5dbf5;
+
+  --container-max-width: 1180px;
+  --container-padding: 0 24px;
 }
 
-//SASS Variables
+// SASS Variables
 $breakpoint-large: 992px;

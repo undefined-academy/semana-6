@@ -1,12 +1,12 @@
 .text-button {
-    color: var(--color-black-pearl-900);
+  color: var(--color-black-pearl-900);
 
-    &.is-active {
-        color: var(--color-aquarius-600);
-    }
+  &.is-active {
+	color: var(--color-aquarius-600);
+  }
 }
 
 .text-button-md {
-    font-size: 15px;
-    line-height: 19px;
+  font-size: 15px;
+  line-height: 19px;
 }

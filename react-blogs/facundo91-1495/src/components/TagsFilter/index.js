@@ -1,1 +1,1 @@
-export {default} from './TagsFilter';
+export { default } from './TagsFilter'
