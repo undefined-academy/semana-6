@@ -16,42 +16,98 @@ nav {
   display: flex;
   overflow: hidden;
   background-color: #eee;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav a {
-  float: left;
-  display: block;
-  color: #000;
-  font-weight: bold;
-  text-align: center;
+.menu_items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_items li a {
+  padding: 7px 13px;
   text-decoration: none;
-  padding: 14px 16px;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
 }
 
-nav a:hover {
-  background-color: #e2e2e2;
+.menu_items li:hover,
+li.active {
+  background-color: darkgrey;
+  transition: .4s;
+}
+
+.btn_menu {
+  margin-right: 10px;
+  font-size: 25px;
   color: #000;
+  cursor: pointer;
+  display: none;
 }
 
-@media only screen and (max-width:992px) {
-  nav {
-    display: flex;
+ul.show {
+  top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+
+  .btn_menu {
+    display: inline-flex;
+    margin: 14px 16px;
+  }
+
+  .menu_items {
+    position: fixed;
+    width: 100vw;
+    background: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
     flex-direction: column;
-    width: 100%;
+    margin: auto;
   }
-  nav a {
-    text-align: left;
-    border-bottom: 2px solid #000;
+
+  .menu_items li:hover { 
+    background: #e2e2e2;
   }
-  .posts {
-    width: 80%!important;
+
+  .menu_items li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .menu_items li a:hover, a:active{
+    color: #000;
+  }
+
+  .container {
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ }
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+  .menu_items li {
+    margin: 5px 0 0 0;
+  }
+
+  .menu_items {
+    overflow: scroll;
+    height: calc(100% - 65px);
   }
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(3,auto);
 }
 
 img {
@@ -63,7 +119,11 @@ img {
   margin: 30px;
   padding: 20px;
   border-radius: 8px;
-  width: 50%;
+  width: 80%;
+}
+
+.posts p {
+  text-align: justify;
 }
 
 .avatar {
