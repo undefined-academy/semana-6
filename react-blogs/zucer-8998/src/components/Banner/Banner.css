@@ -1,0 +1,34 @@
+.banner {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background: var(--green-vogue);
+}
+
+.banner-margin {
+  padding-bottom: 2rem;
+}
+
+.banner-title {
+  margin-left: 2rem;
+}
+
+.badge {
+  border-radius: 50px;
+  display: inline-block;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 0.125rem 1rem;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    var(--persian-green) 0.1%,
+    var(--orient) 94.2%
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 350px;
+  }
+}
