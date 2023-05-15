@@ -1,0 +1,15 @@
+footer {
+  background: var(--green-vogue);
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem 0;
+  filter: invert(1);
+}
+
+.github {
+  width: 20px;
+  height: 20px;
+}
