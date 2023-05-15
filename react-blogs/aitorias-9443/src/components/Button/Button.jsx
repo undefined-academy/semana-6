@@ -1,6 +1,6 @@
 import './Button.css'
 
-export function Button({ text, type, classes, isActive, id, value, dataFilter, disabled, onClick }) {
+export function Button({ children, type, classes, isActive, id, value, role, dataFilter, disabled, onClick }) {
 
   return (
     <button
@@ -8,11 +8,12 @@ export function Button({ text, type, classes, isActive, id, value, dataFilter, d
       className={`${classes} ${isActive ? 'active' : ''}`}
       id={id}
       value={value}
+      role={role}
       data-filter={dataFilter}
       disabled={disabled}
       onClick={onClick}
     >
-      {text}
+      {children}
     </button>
   )
 }

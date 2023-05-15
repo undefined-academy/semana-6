@@ -1,5 +1,5 @@
-import './Header.css'
 import { changeTheme } from '../../assets/js/changeTheme';
+import './Header.css'
 
 export function Header() {
 
