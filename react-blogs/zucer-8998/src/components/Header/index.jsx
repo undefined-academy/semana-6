@@ -18,6 +18,7 @@ const Header = () => (
                 target="_blank"
                 rel="noreferrer"
               >
+                {' '}
                 Maracuyá
               </a>
               , also called passion fruit.

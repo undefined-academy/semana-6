@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import './Layout.css'
 
 const Layout = ({ children, className }) => (
-  <article className={`layout ${className}`}>{children}</article>
+  <div className={`layout ${className}`}>{children}</div>
 )
 
 Layout.propTypes = {
