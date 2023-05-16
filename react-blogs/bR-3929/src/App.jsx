@@ -10,6 +10,7 @@ const articles = [
     image: "./src/assets/imagesblogs/birrabar.jpg",
     description:
       "Si quieres conocer acerca de nosotros, nuestros local, nuestro menu, accede a nuestra pagina web haciendo click sobre la imagen.",
+      date:"2021-02-22"
   },
   {
     title: "Big Pons",
@@ -18,6 +19,7 @@ const articles = [
     image: "./src/assets/imagesblogs/bigpons.jpg",
     description:
       "Si quieres conocer acerca de nosotros, nuestros local, nuestro menu, accede a nuestra pagina web haciendo click sobre la imagen.",
+      date:"2022-04-22"
   },
   {
     title: "TBC",
@@ -26,6 +28,7 @@ const articles = [
     image: "./src/assets/imagesblogs/tbc.jpg",
     description:
       "Si quieres conocer acerca de nosotros, nuestros local, nuestro menu, accede a nuestra pagina web haciendo click sobre la imagen.",
+      date:"2023-02-22"
   },
   {
     title: "TFT",
@@ -34,6 +37,7 @@ const articles = [
     image: "./src/assets/imagesblogs/tft.jpg",
     description:
       "Si quieres conocer acerca de nosotros, nuestros local, nuestro menu, accede a nuestra pagina web haciendo click sobre la imagen.",
+      date:"2022-02-22"
   },
 ];
 
@@ -58,6 +62,7 @@ const App = () => {
               className={article.className}
               image={article.image}
               description={article.description}
+              date={article.date}
             />
           ))}
         </div>

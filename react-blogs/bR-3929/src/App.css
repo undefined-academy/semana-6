@@ -92,6 +92,14 @@ nav a:hover {
   height: 350px;
 }
 
+.container div span {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 @media screen and (max-width: 800px) {
   .container {
     display: flex;
@@ -121,3 +129,4 @@ nav a:hover {
     height: auto;
   }
 }
+
