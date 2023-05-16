@@ -95,7 +95,7 @@ nav a:hover {
 .container div span {
   display: flex;
   justify-content: flex-start;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
