@@ -1,6 +1,6 @@
-import { Header, Footer, Banner, Layout } from './components'
+import { Header, Footer, Banner, Layout, Blog, Article } from './components'
 
-import './App.css'
+import { articles } from './data/articles'
 
 function App() {
   return (
@@ -9,14 +9,13 @@ function App() {
       <main>
         <Banner />
         <Layout>
-          <section>
-            <h2 className="title-2">How I am?</h2>
-            <p>
-              I&apos;m an UI/ UX enthusiast, Web animations lover and
-              <strong>Front-end Developer</strong> from Colombia ☕ with 3+
-              years in the industry.
-            </p>
-          </section>
+          <Blog>
+            <>
+              {articles.map((article, idx) => (
+                <Article {...article} key={`article-${idx + 1}`} />
+              ))}
+            </>
+          </Blog>
         </Layout>
       </main>
       <Footer />
