@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dayjs": "^1.11.7",
+    "minireset.css": "^0.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
