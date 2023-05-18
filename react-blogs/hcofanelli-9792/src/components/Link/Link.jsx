@@ -1,12 +1,10 @@
 import "./Link.scss"
 
 
-export const Link = ({dato}) => {
-  console.log(dato)
-    return (
-    
+export const Link = ({children}) => {
+    return ( 
     <>
-    <li>{dato}</li>
+    <li>{children}</li>
     </>
   )
 }

@@ -37,7 +37,7 @@ function App() {
         <nav>
           <ul>
             {
-              links.map((link)=><Link dato={link}></Link>)
+              links.map((link)=><Link>{link}</Link>)
             }
           </ul>
           <input type="search" placeholder="Buscar"/>
