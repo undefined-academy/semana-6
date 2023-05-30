@@ -1,6 +1,6 @@
 export const ButtonList = ({ categories, filterCategory }) => {
     return (
-        <div className="categories">
+        <section className="categories">
             {categories.map(category => (
                 <button
                     type="button" className="btn-category"
@@ -8,6 +8,6 @@ export const ButtonList = ({ categories, filterCategory }) => {
                     {category}
                 </button>
             ))}
-        </div>
+        </section>
     )
 }

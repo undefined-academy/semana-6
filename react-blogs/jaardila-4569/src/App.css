@@ -7,7 +7,7 @@
 body {
   background-color: var(--color-background);
   color: #fff;
-  max-width: 1200px;
+  max-width: 75em;
   margin: 0 auto;
   font-family: 'Poppins';
 }
@@ -38,6 +38,7 @@ img {
 .title img {
   width: 400px;
   margin: 25px 0;
+  border-radius: 30%;
 }
 
 .article-list {

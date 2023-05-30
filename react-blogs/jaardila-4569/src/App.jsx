@@ -22,10 +22,10 @@ function App() {
 
   return (
     <>
-      <div className="title">
-        <h1>Jorge Ardila’s <span>blog</span>, web developer</h1>
+      <header className="title">
+        <h1>Jorge Ardila’s <span>Blog</span></h1>
         <img src="https://cdn-az.allevents.in/events3/banners/1269f67c43e2e18f396b1312ed86a8b2b59db0355944894d437ea09fc0f563a0-rimg-w400-h400-gmir.jpg?v=1608205696" alt="imagen-header" />
-      </div>
+      </header>
 
       <ButtonList categories={categories} filterCategory={filterCategory}></ButtonList>
 
