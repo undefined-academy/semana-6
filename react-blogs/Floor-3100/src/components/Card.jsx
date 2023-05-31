@@ -22,22 +22,20 @@ function humanizarFecha(date) {
 
 const Card = ({ title, desc, img, author, dateTime }) => { 
 
-    useEffect(() => {
-        const timeElement = document.getElementById(dateTime);
-        if (timeElement) {
-            timeElement.innerHTML = "Fecha: " + humanizarFecha(dayjs(timeElement.getAttribute("datetime")));
-        }
-    }, [dateTime]);
+    const timeElement = document.getElementById(dateTime);
+    if (timeElement) {
+        timeElement.innerHTML = "Fecha: " + humanizarFecha(dayjs(timeElement.getAttribute("datetime")));
+    }
     
-    return (
-                
+    return (  
         <div className="card">
             <img src={img} alt={title}/>
             <hr />
             <h2><a href="">{title}</a></h2>
             <p>{desc}</p>
             <div className="cardBottom">
-                <p className="time"><time id={dateTime} datetime={dateTime}></time></p>
+                {/* <p className="time"><time id={dateTime} datetime={dateTime}></time></p>  */}
+                <p className="time">{`Fecha: ${humanizarFecha(dayjs(dateTime))}`}</p>
                 <p className="author">{author}</p>
             </div>
         </div>
