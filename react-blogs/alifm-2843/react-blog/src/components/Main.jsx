@@ -1,10 +1,15 @@
-import BigFirstCard from './BigFirstCard';
 import Card from './Card';
 
 const articles = [
     {
+        title: "Beach destinations 🌊",
+        content: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi enetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim? Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        image: "https://source.unsplash.com/fvXHYhF7rvI",
+        date: "2023-05-31",
+    },
+    {
        
-        title: "Country life 🏜️",
+        title: "Country 🏜️",
         content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?",
         image: "https://source.unsplash.com/sYffw0LNr7s",
         date:"2022-07-23",
@@ -27,11 +32,15 @@ function Main() {
     return (
         <>
         <main className="container">
-            <BigFirstCard/>
-
-            {articles.map( article => (
-                        <Card key={article.id} id={article.id} title={article.title} content={article.content} image={article.image} date={article.date} />
-                    ))}
+        {articles.map((article, key) => (
+          <Card
+            key={key}
+            title={article.title}
+            content={article.content}
+            image={article.image}
+            date={article.date}
+          />
+        ))}
         </main>
 
         </>
