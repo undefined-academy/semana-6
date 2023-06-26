@@ -7,7 +7,7 @@ function Post(){
           id: 1,
           title: "This is rocking",
           content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?",
-          image: "Card_1.png",
+          image: "img1.png",
           date: "2020-04-15",
          
         },
@@ -15,7 +15,7 @@ function Post(){
           id: 2,
           title: "Don't watch with your mom around",
           content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?.",
-          image: "Card_2.png",
+          image: "img2.png",
           date: "2023-04-20",
           
         },
@@ -23,7 +23,7 @@ function Post(){
           id: 3,
           title: "Binge watch",
           content: " amet consectetur, adipisicing elit. Commodi tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?",
-          image: "Card_3.png",
+          image: "img3.png",
           date: "2021-03-20",
           
         },
@@ -31,7 +31,7 @@ function Post(){
           id: 4,
           title: "Don't check the fillers",
           content: "ing elit. Commodi tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?.",
-          image: "Card_4.png",
+          image: "img4.png",
           date: "2000-01-13",
           
         },
@@ -39,7 +39,7 @@ function Post(){
           id: 5,
           title: "Not even a bad episode",
           content: "di tenetur laboriosam temporibus quibusdam impedit inventore enim? Alias placeat dolorum amet sint. Odit fugit sed adipisci. Molestiae distinctio vel harum enim?.",
-          image: "Card_5.png",
+          image: "img5.png",
           date: "2022-02-02",
          
         },
@@ -48,8 +48,8 @@ function Post(){
       
       return(
         <div className='container'>
-        {posts.map(({title, content, image, date})=>(
-        <Card title={title} content={content} image={image} date={date}></Card>
+        {posts.map((id, {title, content, image, date})=>(
+        <Card id={id} title={title} content={content} image={image} date={date}></Card>
         ))}
         </div>
       )      

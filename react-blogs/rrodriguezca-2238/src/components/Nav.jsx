@@ -2,7 +2,7 @@ function Nav() {
 
     return (
         <nav>
-            <ul class="menu_items">
+            <ul className="menu_items">
                 <li><a href="#">New Season</a></li>
                 <li><a href="#">Classic</a></li>
                 <li><a href="#">Favorites</a></li>
