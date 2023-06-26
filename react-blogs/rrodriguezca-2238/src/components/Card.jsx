@@ -1,4 +1,4 @@
-import { humanize } from "./src/assets/js/scripts.mjs";
+import { humanize } from "../assets/js/scripts.mjs";
 function Card({title, content, image, date}){
     return(
     <div className="posts">
