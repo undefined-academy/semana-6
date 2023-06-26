@@ -1,5 +1,5 @@
 import * as React from "react";
-import Nav from "./Nav";
+import Nav from "./src/components/Nav";
 function Header(){
     return(
     <header>

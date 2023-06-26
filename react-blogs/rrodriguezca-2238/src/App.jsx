@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import './assets/css/styles.scss'
+import './App.css'
+import './index.css'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
@@ -14,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
