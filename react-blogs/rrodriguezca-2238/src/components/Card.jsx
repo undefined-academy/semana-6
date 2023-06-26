@@ -1,6 +1,6 @@
 import { humanize } from "../assets/js/scripts.mjs";
 
- export function Card({title, content, image, date}){
+function Card({title, content, image, date}){
     return(
     <div className="Post">
         <img src={image} alt="" />
