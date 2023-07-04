@@ -1,0 +1,62 @@
+[
+  {
+    "unsplashId": "i25aqE_YUZs",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["JAVASCRIPT", "Ver articulo"],
+    "title": "JAVASCRIPT FOR WEB DISIGNERS",
+    "extract": "JavaScript es un lenguaje de programación de alto nivel que se utiliza principalmente para desarrollar aplicaciones web interactivas. Es un lenguaje de scripting, lo que significa que se ejecuta en el navegador del usuario en lugar de en el servidor web, lo que permite la interacción y la manipulación de elementos en una página web.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2023-05-04"
+  },
+  {
+    "unsplashId": "BI465ksrlWs",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["PYTHON", "Ver articulo"],
+    "title": "PYTHON WEB FRAMEWORK THAT ENCOURAGES",
+    "extract": "Python es un lenguaje de programación de alto nivel, interpretado, versátil y de propósito general. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. Desde entonces, Python ha ganado popularidad debido a su sintaxis clara y legible, su enfoque en la facilidad de uso y su amplia gama de aplicaciones.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2023-04-19"
+  },
+  {
+    "unsplashId": "0wIHsm2_1fc",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["JAVA", "Ver articulo"],
+    "title": "INTRODUCCIÓN A LA PROGRAMACIÓN FUNCIONAL EN JAVA",
+    "extract": "Java es un lenguaje de programación de alto nivel, orientado a objetos y de propósito general. Fue desarrollado por Sun Microsystems (ahora propiedad de Oracle) en la década de 1990 y se ha convertido en uno de los lenguajes más populares y utilizados en la industria del software.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2022-12-08"
+  },
+  {
+    "unsplashId": "9WnjxT1NCoY",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["HTML", "Ver articulo"],
+    "title": "HYPERTEXT MARKUP LANGUAGE",
+    "extract": "HTML, que significa HyperText Markup Language (Lenguaje de marcado de hipertexto), es el lenguaje estándar utilizado para crear y estructurar el contenido de las páginas web. Es el lenguaje fundamental de construcción de sitios web y se utiliza en combinación con CSS y JavaScript para crear páginas web interactivas y visualmente atractivas.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2022-09-17"
+  },
+  {
+    "unsplashId": "ipARHaxETRk",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["CSS", "Ver articulo"],
+    "title": "CASCADING STYLE SHEETS",
+    "extract": "CSS, que significa Cascading Style Sheets (Hojas de estilo en cascada), es un lenguaje de diseño utilizado para definir la apariencia y el formato de un documento HTML. Se utiliza junto con HTML y JavaScript para crear y diseñar páginas web.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2021-11-27"
+  },
+  {
+    "unsplashId": "B93kPaspXcA",
+    "unsplashAlt": "Imagen de un post",
+    "tags": ["Web Components", "Ver articulo"],
+    "title": "LA PROGRAMACIÓN WEB Y EL DESARROLLO WEB",
+    "extract": "La programación web se refiere al conjunto de técnicas y habilidades utilizadas para crear aplicaciones y sitios web. Implica el uso de lenguajes de programación, tecnologías web y herramientas para desarrollar y mantener aplicaciones web interactivas y funcionales.",
+    "author": "Edwin Ortiz",
+    "readTime": "7 minutos de lectura",
+    "date": "2021-06-14"
+  }
+]
