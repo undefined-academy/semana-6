@@ -1,17 +1,12 @@
-// import { useState } from 'react'
-// // import reactLogo from './assets/react.svg'
-// // import viteLogo from '/vite.svg'
+import "./App.css";
+import Card from "./Card.jsx";
 
-import './App.css'
-import { Card } from './Card.jsx'
-
-function App() {
-
+const App = () => {
   return (
     <>
-      <Card></Card>
+      <Card />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
