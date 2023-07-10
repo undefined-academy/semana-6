@@ -34,6 +34,14 @@ header {
     cursor: pointer;
 }
 
+.card:nth-child(3) {
+    grid-column: span 2;
+}
+
+.card:nth-child(4) {
+    grid-column: span 2;
+}
+
 .titleCard {
     margin: 7px 0;
     font-size: 18px;
