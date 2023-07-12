@@ -1,4 +1,4 @@
-import humanize from "../../utils/humanize"
+import humanize from "../../../utils/humanize"
 
 function Time({children}) {
     return (

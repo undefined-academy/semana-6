@@ -1,4 +1,4 @@
-import Time from "./Time";
+import Time from "../Time";
 
 const Card = ({img, imgAlt, title, date, extract}) => {
     return (

@@ -1,0 +1,9 @@
+@use "./src/styles/variables.scss" as *;
+
+.date {
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+    color: $dustyGray;
+    text-align: end;
+}
