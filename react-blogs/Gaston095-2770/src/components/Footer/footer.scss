@@ -1,0 +1,13 @@
+@use "./src/styles/variables.scss" as *;
+
+footer {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: $black;
+    color: $white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

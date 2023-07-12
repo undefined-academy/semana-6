@@ -1,0 +1,23 @@
+@use "./src/styles/variables.scss" as *;
+@use "./src/components/header/header.scss";
+@use "./src/components/Footer/footer.scss";
+@use "./src/components/Card/card.scss";
+@use "./src/components/Time/time.scss";
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.gallery {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    /*grid-auto-rows: 22rem;*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.featured {
+    grid-column: span 2;
+}
