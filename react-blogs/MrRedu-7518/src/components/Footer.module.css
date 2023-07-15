@@ -1,0 +1,19 @@
+.footer-container {
+    width: 100%;
+    min-height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .footer-item-list>a {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.footer-container .footer-item-list>a:hover {
+    text-decoration: underline;
+}
