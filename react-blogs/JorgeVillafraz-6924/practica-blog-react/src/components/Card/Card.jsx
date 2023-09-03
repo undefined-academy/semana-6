@@ -1,3 +1,6 @@
+import './Card.scss';
+import classNames from 'classnames';
+
 const Tag = ({ children, link = '#' }) => {
 	return (
 		<span className='tag'>
@@ -15,9 +18,10 @@ const Card = ({
 	extract,
 	author,
 	readTime,
+	isGray = false,
 }) => {
 	return (
-		<article className='card'>
+		<article className={classNames('card', { gray: isGray })}>
 			<section>
 				<header>
 					<img
@@ -25,8 +29,9 @@ const Card = ({
 						alt={unsplashAlt}
 					/>
 					<div className='tags'>
-						<Tag>Web</Tag>
-						<Tag>CSS</Tag>
+						{tags?.map((tag, index) => (
+							<Tag key={index}>{tag}</Tag>
+						))}
 					</div>
 					<h2 className='heading-sm font-poppins-regular font-bold'>{title}</h2>
 					<time

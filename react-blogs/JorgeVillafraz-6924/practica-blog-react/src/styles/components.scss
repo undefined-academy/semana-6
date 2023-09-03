@@ -1,17 +1,13 @@
-
 //Atoms
-@use "components/heading.scss";
-@use "components/paragraph.scss";
-@use "components/link.scss";
-@use "components/input.scss";
+@use 'components/heading.scss';
+@use 'components/paragraph.scss';
+@use 'components/link.scss';
+@use 'components/input.scss';
 
 //Molecules
-@use "components/tags.scss";
-@use "components/button.scss";
+@use 'components/tags.scss';
 
 //Organism
-@use "components/tags-filter.scss";
-@use "components/card.scss";
-@use "components/author.scss";
+@use 'components/tags-filter.scss';
 
-
+@use 'components/author.scss';
