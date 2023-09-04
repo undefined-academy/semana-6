@@ -1,13 +1,8 @@
 import './Card.scss';
-import classNames from 'classnames';
 
-const Tag = ({ children, link = '#' }) => {
-	return (
-		<span className='tag'>
-			<a href={link}>{children}</a>
-		</span>
-	);
-};
+import Author from '../Author';
+import Tag from '../Tag';
+import classNames from 'classnames';
 
 const Card = ({
 	unsplashId,
@@ -28,7 +23,7 @@ const Card = ({
 						src={`https://source.unsplash.com/${unsplashId}`}
 						alt={unsplashAlt}
 					/>
-					<div className='tags'>
+					<div className='card-tags'>
 						{tags?.map((tag, index) => (
 							<Tag key={index}>{tag}</Tag>
 						))}
@@ -45,12 +40,7 @@ const Card = ({
 				<p className='paragraph font-poppins-regular'>{extract}</p>
 			</section>
 			<footer>
-				<div className='author'>
-					<img src='https://i.pravatar.cc/300' alt='avatar de autor' />
-					<span className='paragraph font-poppins-regular font-bold'>
-						{author}
-					</span>
-				</div>
+				<Author author={author} />
 				<span className='reading-time paragraph font-poppins-regular'>
 					{readTime}
 				</span>
