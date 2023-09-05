@@ -8,7 +8,7 @@ const Filter = ({ children, isActive = false, href = '#', onClick }) => {
 		<li className={classNames({ 'is-active-filter': isActive })}>
 			<a
 				href={href}
-				className='filter paragraph font-bold font-recursive-italic'
+				className='filter font-bold font-recursive-italic'
 				onClick={e => {
 					e.preventDefault();
 					onClick(children);

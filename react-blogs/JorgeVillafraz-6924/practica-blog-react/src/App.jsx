@@ -6,6 +6,8 @@ import TagsFilter from './components/TagsFilter';
 import articles from './data/articles.json';
 import filters from './data/filters.json';
 
+// TODO:falta hacer el componente heading
+
 function App() {
 	let cardColorFlag = false;
 	return (

@@ -1,10 +1,15 @@
+import Paragraph from '../Paragraph/Paragraph';
 import './Author.scss';
 
-const Author = ({ author }) => {
+const Author = ({
+	name,
+	avatarUrl = 'https://i.pravatar.cc/300',
+	avatarAlt = 'avatar de un autor',
+}) => {
 	return (
 		<div className='author'>
-			<img src='https://i.pravatar.cc/300' alt='avatar de autor' />
-			<span className='paragraph font-poppins-regular font-bold'>{author}</span>
+			<img src={avatarUrl} alt={avatarAlt} />
+			<Paragraph isBold={true}>{name}</Paragraph>
 		</div>
 	);
 };

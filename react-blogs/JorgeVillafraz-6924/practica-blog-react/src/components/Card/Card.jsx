@@ -3,6 +3,8 @@ import './Card.scss';
 import Author from '../Author';
 import Tag from '../Tag';
 import classNames from 'classnames';
+import Paragraph from '../Paragraph/Paragraph';
+import Time from '../Time/Time';
 
 const Card = ({
 	unsplashId,
@@ -29,21 +31,13 @@ const Card = ({
 						))}
 					</div>
 					<h2 className='heading-sm font-poppins-regular font-bold'>{title}</h2>
-					<time
-						className='heplp-text paragraph font-poppins-regular'
-						dateTime={date}
-					>
-						{date}
-					</time>
+					<Time>{date}</Time>
 				</header>
-
-				<p className='paragraph font-poppins-regular'>{extract}</p>
+				<Paragraph>{extract}</Paragraph>
 			</section>
 			<footer>
-				<Author author={author} />
-				<span className='reading-time paragraph font-poppins-regular'>
-					{readTime}
-				</span>
+				<Author name={author} />
+				<Paragraph as='span'>{readTime}</Paragraph>
 			</footer>
 		</article>
 	);
