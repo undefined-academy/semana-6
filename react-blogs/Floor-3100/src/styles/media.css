@@ -1,0 +1,45 @@
+@media only screen and (max-width: 500px) {
+    .navbar {
+        padding: 0px 32px;
+        display: flex;
+        flex-direction: column;     
+        align-items: center;
+    }   
+
+    ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    li {
+        margin-right: 8px;  
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        font-size: 3.2em;
+    }
+
+    main { 
+        padding: 32px;
+    }
+
+    .container { 
+        display: flex;
+        flex-direction: column; 
+        margin: 32px;
+    }
+
+    .card {
+        max-width: 350px;
+        padding: 8px 16px;
+    }
+
+    footer { 
+        height: 150px;
+        padding: 0px 32px;
+
+    }
+}
