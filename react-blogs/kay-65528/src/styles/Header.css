@@ -1,0 +1,47 @@
+.banner {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner *{
+  background-color: unset;
+  color: #f5f5f5;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex: 2;
+}
+
+.header-navbar {
+  border-top: 1px solid #000;
+  height: 4em;
+}
+
+.header-list {
+  list-style: none;
+  font-weight: 600;
+  margin: auto 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-list-item {
+  font-size: 1.5em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em;
+  cursor: pointer;
+}
+.header-list-item:hover {
+  background-color: #ccc;
+}
