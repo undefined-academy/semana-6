@@ -1,0 +1,84 @@
+body {
+    margin: 100px auto;
+    max-width: 800px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 0 40px;
+    background-color: var(--principal-color);
+}
+
+p a {
+    color: #333;
+}
+
+h2, h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+}
+    
+strong {
+    color: #333;
+}
+
+.hobbies {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+p {
+    padding: 0 10px;
+}
+
+#profile, #experience, #education, #hobbies {
+    background-color: rgba(245, 245, 245, 0.578);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+.abouMe {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0px;
+}
+
+#experience, #education, #hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+li {
+    color: var(--color-dark-grey);
+}
+
+ul li {
+    padding-left: 20px;
+}
