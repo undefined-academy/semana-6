@@ -1,0 +1,30 @@
+@use "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+body {
+  background-color: variables.$ghostWhite;
+  color: variables.$midnightBlue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+

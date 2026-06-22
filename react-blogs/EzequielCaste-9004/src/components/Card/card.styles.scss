@@ -1,0 +1,12 @@
+@use '../../styles/variables.scss';
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid variables.$grayChateau;
+}
+.card-title {
+  margin-bottom: 0.5em;
+}
+.card-body {
+  padding: 1em;
+}
