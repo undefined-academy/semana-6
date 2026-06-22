@@ -1,0 +1,27 @@
+.sidebar {
+  border: 1px solid black;
+  max-width: 300px;
+  height: fit-content;
+  padding: 20px;
+}
+
+.searchbar {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.sidebar-input {
+  width: 230px;
+  height: 30px;
+}
+
+.suggestions {
+  list-style: none;
+}
+.suggestions li{
+  padding: 13px 5px;
+  font-weight: 800;
+  font-size: large;
+  color: green;
+}

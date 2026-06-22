@@ -1,0 +1,11 @@
+.mainpage {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.mainpage-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

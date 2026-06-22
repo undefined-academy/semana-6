@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  height: 8em;
+  display: flex;
+  align-items: end;
+}
+
+.bot {
+  width: 100%;
+  height: 2.5em;
+  border-top: 1px solid #000;
+  background-color: green;
+}

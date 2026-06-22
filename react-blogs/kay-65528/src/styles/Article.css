@@ -1,0 +1,32 @@
+.article {
+  border: 6px solid black;
+  border-radius: 8px;
+  max-width: 60em;
+  height: auto;
+}
+
+.article-image {
+  width: 40em;
+  cursor: pointer;
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
+}
+
+.description {
+  padding: 5px;
+  padding-left: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.tags{
+  display: flex;
+  padding: 5px 0;
+}
+.tags p{
+  margin: 0 5px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
